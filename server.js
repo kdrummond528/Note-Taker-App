@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static('public'));
 
 // routes
-const api = require('./routes/apiroutes');
-const html = require('./routes/htmlroutes');
+const api = require('./routes/apiRoutes');
+const html = require('./routes/htmlRoutes');
 
 // middleware
 app.use(express.json());
